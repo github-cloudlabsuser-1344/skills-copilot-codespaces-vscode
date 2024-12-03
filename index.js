@@ -13,7 +13,6 @@ const data = [
 const names = data.flat().map(person => person.name);
 console.log(names); // Output: ['John', 'Jane', 'Bob']
 
-
 import { useState } from 'react';
 
 
